@@ -1,0 +1,55 @@
+*{
+    font-family: serif;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: crimson;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    padding: 10px;
+}
+#jeden{
+    background-color: mistyrose;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px ;
+    margin-right: 50px;
+    border: 1px crimson solid;
+}
+#jeden img{
+    float: left;
+    height: 100%;
+}
+.blok{
+    background-color: snow;
+    height: 450px;
+    width: 21%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid crimson;
+    float: left;
+}
+footer{
+    background-color: crimson;
+    color: white;
+    clear: both;
+}
+#trzy{
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+h4{
+    font-size: 180%;
+    text-align: center;
+    background-color: crimson;
+}
+a{
+    color: white;
+}

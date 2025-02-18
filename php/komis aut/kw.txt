@@ -1,0 +1,4 @@
+SELECT nazwa FROM `marki`; 
+SELECT model,rocznik,przebieg,paliwo,cena,zdjecie FROM samochody WHERE id LIKE 10; 
+SELECT marki.nazwa, samochody.model,samochody.rocznik,samochody.cena,samochody.zdjecie FROM marki RIGHT JOIN samochody on marki.id = samochody.marki_id LIMIT 4; 
+SELECT model,cena,zdjecie, marki.nazwa FROM samochody INNER JOIN marki on samochody.marki_id = marki.id where marki.nazwa like "Audi"; 

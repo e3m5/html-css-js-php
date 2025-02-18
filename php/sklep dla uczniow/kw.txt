@@ -1,0 +1,4 @@
+SELECT nazwa FROM `towary` WHERE promocja = 1; 
+SELECT `cena` FROM `towary` WHERE `nazwa` LIKE "Markery%"; 
+SELECT dostawcy.id,dostawcy.nazwa ,COUNT(towary.id) as liczba_towarow FROM `dostawcy` join towary on dostawcy.id = towary.idDostawcy GROUP by towary.idDostawcy; 
+ALTER TABLE dostawcy ADD informacje text; 

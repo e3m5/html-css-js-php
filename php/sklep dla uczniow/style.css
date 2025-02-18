@@ -1,0 +1,39 @@
+*{
+    font-family: garamond;
+    text-align: center;
+}
+header,footer{
+    background-color:#8C7B75 ;
+    color: white;
+    height: 70px;
+    font-size: 150%;
+}
+main{
+    margin: 0;
+    display: flex;
+}
+#left,#right{
+    background-color:  #BCAAA4;
+    height: 400px;
+    width: 35%;
+}
+#mid{
+    background-color: #EFDCD5;
+    height: 400px;
+    width: 30%;
+}
+ol{
+    list-style-type: lower-roman;
+}
+ol > li{
+    text-align: left;
+}
+img{
+    border: 1px solid #8C7B75;
+    padding: 5px;
+    border-radius: 10%;
+}
+.result{
+    margin-top: 100px;
+    border: 1px solid #8C7B75;
+}
