@@ -1,0 +1,62 @@
+body{
+    font-family: garamond;
+}
+header{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+}
+main{
+    width: 80%;
+    height: 600px;
+}
+aside{
+    background-color: coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+}
+footer{
+    background-color: tomato;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div{
+    border: solid 1px tomato;
+    margin: 15px;
+    height: 470px;
+    overflow-y: scroll;
+    float: left;
+
+}
+section{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+}
+#jola{
+    background-color: #eee;
+
+
+}
+#ksiek{
+    background-color: #CCC;
+    text-align: right;
+    
+}
+button{
+    background-color: tomato;
+    border: 1px solid darkred;
+    padding: 5px;
+    font-weight: bold;
+}
+input{
+    width: 500px;
+}

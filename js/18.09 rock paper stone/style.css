@@ -1,0 +1,63 @@
+h1{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.kontener {
+    position: relative;
+    width: 50%;
+    max-width: 200px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  
+  }
+  
+  .kontener img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .kontener .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  .kontener .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .wynik{
+    display: flex;
+    background-color: blue;
+    width:50%;
+    height: 100px;
+    border: 3px solid black;
+    color: white;
+    justify-content: center;
+    margin-left: 300px ;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .podtytul{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+  }

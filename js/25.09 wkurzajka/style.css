@@ -1,0 +1,18 @@
+body{
+    margin: auto;
+    background-color: azure;
+    text-align: center;
+}
+#kula{
+    width: 100px;
+    height: 100px;
+    background-color: maroon;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+#licznik{
+    line-height: 100px;
+    font-size: 50px;
+    color: white;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Wybierz kolory:</p><br>
+    <table>
+        <tr>
+            <th>Czerwony:</th>
+            <th>Zielony:</th>
+            <th>Niebieski:</th>
+            <th>Wielkosc:</th>
+        </tr>
+        <tr>
+            <th> <input type="range" value="0" min="0" max="255" id="suwakC"></th>
+            <th> <input type="range" value="0" min="0" max="255" id="suwakZ"></th>
+            <th> <input type="range" value="0" min="0" max="255" id="suwakN"></th>
+            <th> <input type="range" value="0" min="50" max="500" id="suwakR"></th>
+        </tr>
+        <tr>
+            <th id="liczby">0</th>
+            <th>0</th>
+            <th>0</th>
+            <th>0</th>
+        </tr>
+    </table>
+    <div id="kwadrat">
+        <div id="rozmiar"></div>
+        <div id="czerwony"></div>
+        <div id="niebieski"></div>
+        <div id="zielony"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

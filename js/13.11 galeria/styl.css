@@ -1,0 +1,65 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+footer,header{
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+#lewo,#srodek,#prawo{
+    background-color: lightsalmon;
+    height: 527px;
+    float: left;
+}
+#lewo,#prawo{
+    width: 15%;
+}
+#srodek{
+    width: 70%;
+}
+article{
+    height: 70px;
+    background-color: maroon;
+    display: block;
+}
+button{
+    background-color: lightsalmon;
+    color: maroon;
+    display: block;
+    font-size: 400%;
+    margin: auto;
+    padding-top: 210px;
+    border: none;
+}
+@keyframes miniatury {
+    from {padding-left: 50px; }
+    to {padding-left: 0px;}
+}
+#blok{
+    background-color: maroon;
+    height: 70px;
+    float: left;
+}
+article > img{
+    height: 70px;
+    animation-name: miniatury; 
+    animation-duration: 4s;
+   
+}
+#jeden{
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+@keyframes bloksr {
+    from {scale: 100%;}
+    to {scale: 120%;}
+}
+#jeden:hover{
+    animation-name: bloksr;
+    scale: 120%;
+    animation-duration: 5s;
+}
+

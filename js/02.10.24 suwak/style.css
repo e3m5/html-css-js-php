@@ -1,0 +1,24 @@
+body{
+    font-size: 20px;
+    text-align: center;
+   margin: auto;
+}
+#kwadrat{
+ height: 200px;
+ width: 200px;
+ background-color: black;
+ display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+align-self: center;
+margin: auto;
+ 
+  
+}
+#rozmiar{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz rejestracyjny konferencji <em>Nasze Kwiaty</em> </h1>
+    </header>
+    <main>
+        <section id="lewa">
+            <form action="\script.js" id="jeden" method="post">
+                <label for="dane"><h2>Dane osobowe</h2></label>
+                <input type="text" id="imie" name="imie" placeholder="Wpisz imię" required><br>
+                <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz Nazwisko" required><br>
+                <button type="submit" form="jeden"  value="Następna karta" onclick="jeden()"> Następna karta  </button>
+            </form>
+        </section>
+        <section id="srodek">
+            <form action="\script.js" id="dwa" method="post">
+                <label for="dane"><h2>Dane kontaktowe</h2></label>
+                <input type="email" id="email" name="email" placeholder="Twój email..." ><br>
+                <input type="tel" id="tel" name="tel" placeholder="Twój numer telefonu" ><br>
+                <button type="submit" form="dwa"  value="Następna karta" onclick="dwa()"> Następna karta </button>
+        </section>
+        <section id="prawo">
+            <form action="\script.js" id="trzy" method="post">
+                <label for="dane"><h2>Hasło do logowania</h2></label>
+                <input type="password" id="haslo" name="haslo" placeholder="Podaj hasło" hidden><br>
+                <input type="password" id="haslo" name="haslo" placeholder="Powtórz hasło" hidden><br>
+                <button type="submit" form="trzy" value="Zatwierdź" onclick="trzy()"> Zatwierdź </button>
+        </section>
+    </main>
+
+    <footer class="stopka1">
+        <video controls>
+            <source src="motyl.mp4" type="Video/mp4">
+            Przeglądarka nie obsługuje tego formatu.
+        </video>
+    </footer>
+
+    <footer class="stopka2">
+        <p>
+            <table>
+                <tr>
+                    <th>9:00 - 12:00</th>
+                    <th>Pielęgnacja roślin</th>
+                </tr>
+                <tr>
+                    <th>13:00 - 15:00</th>
+                    <th>Targi kwiatowe</th>
+                </tr>
+            </table>
+        </p>
+    </footer>
+
+    <footer class="stopka3">
+        <p><a href="https://kwiaty.pl/">Internetowa kwiaciarnia</a></p>
+    </footer>
+
+    <footer class="stopka4">
+        <p>Formularz wykonał: 00000000000</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

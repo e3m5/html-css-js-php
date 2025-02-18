@@ -1,0 +1,27 @@
+body{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid black;
+    margin: auto;
+
+}
+#kwadrat{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+#//rozmiar{
+    
+    
+
+}

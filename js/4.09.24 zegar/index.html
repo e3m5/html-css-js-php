@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sigma</title>
+
+    <script type="text/javascript">
+        function niewiem(){
+            let czas = new Date();
+
+            let rok = czas.getFullYear();
+            let miesiac = czas.getMonth()+1;
+                if ( miesiac<10){
+                    miesiac = "0" + miesiac;
+                }
+            let dzien = czas.getDate();
+                if ( dzien<10){
+                    dzien = "0" + dzien;
+                }
+
+            let godzina = czas.getHours();
+                if ( godzina<10){
+                    godzina = "0" + godzina;
+                }
+            let minuta = czas.getMinutes();
+                if ( minuta<10){
+                    minuta = "0" + minuta;
+                }
+            let sekunda = czas.getSeconds();
+                if ( sekunda<10){
+                    sekunda = "0" + sekunda;
+                }
+
+        document.getElementById("zegar").innerHTML = rok+":"+miesiac+":"+dzien+":"+godzina+":"+minuta+":"+sekunda;
+
+        setTimeout(niewiem,1000);
+        }
+
+    </script>
+
+</head>
+<body>
+    <p>to bedzie zegar</p>
+    <div id="zegar">tu bedzie czas</div>
+    <br>
+    <input type="button" name="klik" value="KLIKNIJ MNIE" onclick="niewiem()">
+</body>
+</html>
