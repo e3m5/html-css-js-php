@@ -1,0 +1,62 @@
+
+    Strona główna o nazwie index.html oraz podstrony psy.html i koty.html
+
+Cechy wspólne dla wszystkich stron:
+
+    Zastosowany właściwy standard kodowania polskich znaków
+    Tytuł strony widoczny na karcie przeglądarki "Galeria zdjęć"
+    Arkusz stylów w pliku o nazwie styl5.css prawidłowo połączony z kodem strony
+    Podział strony na bloki: baner, poniżej panel lewy, dwa panele prawe ułożone jedne pod drugim oraz na dole stopka. Podział zrealizowany za pomocą znaczników sekcji tak, aby po uruchomieniu w przeglądarce wygląd układu bloków był zgodny z obrazem 2a i 2b
+    Zawartość panelu lewego:
+        nagłówek drugiego stopnia o treści "Kategorie"
+        lista punktowana (nieuporządkowana) o elementach: "Psy", "Koty", "Gryzonie", "Jaszczurki", "Inne zdjęcia"
+        Element listy "Psy" jest odnośnikiem, jego kliknięcie prowadzi do strony psy.html
+        Element listy "Psy" jest odnośnikiem, jego kliknięcie prowadzi do strony koty.html
+        Nagłówek czwartego stopnia o treści "Powrót do strony głownej", jest odnośnikiem, jego kliknięcie prowadzi do strony index.html
+    Zawartość stopki:
+        napis o treści "Galerię zdjęć opracował ", dalej wstawiony numer PESEL, numer PESEL jest pochylony
+
+Cechy odrębne dla strony index.html:
+
+    Zawartość banera:
+        Nagłówek pierwszego stopnia o treści: "Zdjęcia naszych pupilów"
+    Zawartość panelu prawego, górnego:
+        Nagłówek pierwszego stopnia o treści: "Zdjęcia tygodnia"
+        Akapit o treści "Azor, 4 miesiące"
+    Zawartość panelu prawego, dolnego
+        Zdjęcie pies2.jpg z tekstem alternatywnym "Azor" umieszczono w akapicie
+
+Cechy odrębne dla strony psy.html:
+
+    Zawartość banera:
+        Nagłówke pierwszego stopnia o treści "Zdjęcia psów"
+    Zawartość panelu prawego, górnego:
+        Nagłówek pierwszego stopnia o treści "Wybierz zdjęcie"
+        Poniżej zdjęcia pies1.jpg, pies2.jpg, pies3.jpg z tekstem alternatywnym odpowiednio "pies1", "pies2", "pies3". Zdjęcia mają przypisane zdarzenia kliknięcia, najechania kursorem na element i opuszczenia elementu przez kursor myszy. Zdarzenia są obsługiwane przez skrypt
+    Zawartość panelu prawego, dolnego:
+        Zdjęcie pies1.jpg z tekstem alternatywnym "pies-duży" umieszczono w akapicie
+
+Cechy odrębne dla strony koty.html (organizacja podstrony analogiczna jak w przypadku psy.html):
+
+    Zawartość banera:
+        Nagłówek pierwszego stopnia o treści "Zdjęcia kotów"
+    Zawartość panelu prawego, górnego:
+        Nagłówek pierwszego stopnia o treści "Wybierz zdjęcie"
+        Poniżej zdjęcie kot1.jpg z tekstem alternatywnym "kot1". Zdjęcie ma przypisane zdarzenia kliknięcia, najechania kursorem na element i opuszczenia elementu przez kursor myszy. Zdarzenia są obsługiwane przez skrypt
+    Zawartość panelu prawego, dolnego:
+        Zdjęcie kot1.jpg z tekstem alternatywnym: "kot-duzy" umieszczono w akapicie
+
+Styl CSS witryny internetowej
+
+Cechy formatowania CSS działające na stronie
+
+    Wspólne dla całej strony: krój czcionki Verdana
+    Banera: kolor tła #9692B1, biały kolor czcionki, wyrównanie tekstu do środka, wysokość 80 px
+    Panelu lewego: kolor tła #9692B1, biały kolor czcionki, szerokość 20%, wysokość 750 px
+    Panelu prawego - górnego: kolor tła #FFF4CC, szerokość 80%, wysokość 300 px, wyrównanie tekstu do środka
+    Panelu prawego - dolnego: kolor tła #DBCC93, szerokość 80%, wysokość 450 px, wyrówanie tekstu do środka
+    Stopki: kolor tła #9692B1, biały kolor czcionki, wyrównanie tekstu do prawej strony
+    Odnośnika: biały kolor czcionki
+    Obrazów wyświetlonych w prawym górnym panelu: szerokość 15%, margines zewnętrzny 20 px
+    Obrazów wyświetlanych w prawym dolnym panelu: obramowanie na 4 px, linią ciągłą o kolorze #9692B1
+    W momencie najechania kursorem na obraz wyświetlany w prawym dolnym panelu kolor jego obramowanie zmienia się na szary

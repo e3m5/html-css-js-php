@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-color: #9692B1;
+   
+    height: 80px;
+}
+aside{
+    float: left;
+    color: white;
+    background-color: #9692B1;
+    width: 20%;
+   
+    height: 750px;
+    position: inherit;
+
+}
+#imiona{
+    height: auto;
+    width: auto;
+    background-color: #FFF4CC;
+    color: black;
+   
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 300px;
+    float: right;
+}
+.imionazdj{
+    width: 15%;
+    padding: 20px;
+}
+.link{
+    color: white;
+}
+#zdjecia{
+    height: auto;
+    width: auto;
+    background-color: #DBCC93;
+  
+    width: 80%;
+    height: 450px;
+    text-align: center;
+    float: right;
+}
+.azor{
+    display: FLEX;
+    border: #9692B1 4px solid;
+    
+    
+
+}
+azor:hover{
+    border-color: gray;
+}
