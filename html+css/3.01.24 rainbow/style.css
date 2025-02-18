@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: hotpink;
+}
+h1{
+    text-shadow: 0 0 1px white, 1px 1px 1px red, 2px 2px 1px orange,3px 3px 1px yellow, 4px 4px 1px green,5px 5px 1px blue, 6px 6px 1px indigo,7px 7px 1px violet;
+}
+#tecza{
+    width: 400px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 20px;   
+    margin: auto;
+    font-size: 30px; 
+    background-color: aqua;
+    box-shadow: 5px 5px 4px 5px white, inset 3px 3px 5px white;
+    color: white;
+    text-shadow: -1px -1px 0 black;
+    text-align: center;
+
+}
+#tecza:hover{
+    box-shadow: 5px 5px 4px 5px black, inset 5px 5px 8px black;
+    color: black;
+    text-shadow: -1px -1px 0 black;
+}

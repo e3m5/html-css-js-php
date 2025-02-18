@@ -1,0 +1,31 @@
+.obrot{
+    font-size: 100px;
+    color: maroon;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.prawa{
+animation: ani1 3s linear infinite;
+}
+
+.lewa{
+animation: ani2 3s linear infinite ;
+}
+
+@keyframes ani1 {
+    0% {transform: perspective(400px) rotateY(0) translateZ(0); color: maroon;}
+    50% {transform: perspective(375px) rotateY(73deg) translateZ(130px); color: blue; }
+    100% {transform: perspective(400px) rotateY(0) translateZ(0); }
+}
+
+@keyframes ani2{
+    0% {transform: perspective(400px) rotateY(0) translateZ(0); color: blue;}
+    50% {transform: perspective(375px) rotateY(-73deg) translateZ(130px); color: maroon; }
+    100% {transform: perspective(400px) rotateY(0) translateZ(0); }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <h1>formularz wstepny:</h1><br>
+    </div>
+    <table>
+        <form>
+            <tr>
+                <td> 
+                    <label for="name">imie:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="imie">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="nazwisko">nazwisko:</label>
+                </td>
+                <td>
+                    <input type="text" id="nazwisko" name="nazwisko">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <p>wybierz litere:</p>
+                </td>
+                <td>
+                    <input type="radio" id="a" name="a" value="a">
+                    <label for="a">A</label><br>
+                    <input type="radio" id="b" name="a" value="b">
+                    <label for="b">B</label><br>  
+                    <input type="radio" id="c" name="a" value="c">
+                    <label for="c">C</label><br>
+                    <input type="radio" id="d" name="a" value="d">
+                    <label for="d">D</label><br>
+                    <input type="radio" id="e" name="a" value="e">
+                    <label for="e">E</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>plec:</p>
+                </td>
+                <td>
+                    <input type="checkbox" id="m" name="m" value="m">
+                    <label for="m">mezczyzna</label><br>
+                    <input type="checkbox" id="f" name="m" value="f">
+                    <label for="f">kobieta</label><br>  
+                    <input type="checkbox" id="o" name="m" value="o">
+                    <label for="o">misc.</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sen">czas snu w ciagu dnia (w godzinach):</label>
+                </td>
+                <td>
+                    <input type="number" id="czas" name="czas" min="0" max="24"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sport">sport:</label>
+                </td>
+                <td>
+                    <select name="sport" id="sport" multiple>
+                        <option value="pilka nozna">pilka nozna</option>
+                        <option value="siatkowka">siatkowka</option>
+                        <option value="futbol">futbol</option>
+                        <option value="hokej">hokej</option><br>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><label for="intro">napisz cos o sobie: </label></p>
+                </td>
+                <td>
+                    <textarea id="intro" name="intro" rows="4" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Zapisz">
+                </td>
+                <td>
+                    <input type="reset" value="wyczyść">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+#nig{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+} 
+#nig> li{
+    float: left;
+    background-color: #FDD700;
+    width: 150px;
+    
+}
+#nig a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 5px;
+
+}
+#nig> li > a:hover{
+    color: aliceblue;
+}
+#nig>li :hover{
+    background-color: blueviolet;
+}
+
+#nig>li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nig>li{
+    margin-left: 1px;
+    
+}
+#nig>li:first-child{
+    margin-left: 0px;
+}
+#nig> li > ul > li{
+    border-top: 1px solid white;
+    background-color: #eee;
+}
+#nig> li > ul > li:hover a {
+    color: azure;
+}
+#nig> li > ul {
+    display:none;
+}
+#nig> li:hover > ul {
+    display: block;
+}
+#nig> li > ul {
+    position: absolute;
+    background-color: #eee;
+    width: 150px;
+}
+#nig > li > ul > li {
+    position: relative;
+    background-color: #eee;
+}
+#nig > li > ul > li > ol{
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    left: 100%;
+}

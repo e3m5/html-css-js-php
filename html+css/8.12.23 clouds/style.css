@@ -1,0 +1,39 @@
+#chmury{
+    list-style: none;
+    font-size: 20px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+#chmury a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 0;
+
+}
+#chmury> ul:hover > ul{
+    display: float;
+}
+#chmury > ul > ul > ol:hover a{
+    color: rgb(6, 182, 123);
+}
+#chmury > ul > ul > ol{
+    border: 3px solid rgb(255, 0, 0);
+    background-color: #eeeeee;
+}
+#chmury>ul > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#chmury > ul{
+    background-color: brown;
+}
+#chmury> ul > ul {
+    display:none;
+}
+#chmury> ul:hover > ul {
+    display: block;
+}

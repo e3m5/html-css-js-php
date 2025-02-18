@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="tlo">
+      <form action=" ">
+        <label for="a">Podaj liczbe a:</label><br />
+        <input type="text" id="a" name="liczbaa" placeholder="a" /><br />
+        <label for="b">Podaj liczbe b:</label><br />
+        <input type="text" id="b" name="liczbab" placeholder="b" /><br />
+        <br />
+        <input type="button" class="przycisk" value="+" onclick="dodawanie()" />
+        <input
+          type="button"
+          class="przycisk"
+          value="-"
+          onclick="odejmowanie()"
+        />
+        <input type="button" class="przycisk" value="*" onclick="mnozenie()" />
+        <input type="button" class="przycisk" value="/" onclick="dzielenie()" />
+        <br />
+        <br />
+        <p id="wynik"></p>
+      </form>
+    </div>
+
+    <script>
+      let a = null;
+      let b = null;
+      function dodawanie() {
+        a = document.getElementById("a");
+
+        console.log(a);
+
+        let suma = a + b;
+        console.log("wynik to: " + suma);
+      }
+      function odejmowanie() {
+        var a = liczbaa;
+        var b = liczbab;
+        var suma = a - b;
+        console.log("wynik to: " + suma);
+      }
+      function mnozenie() {
+        var a = liczbaa;
+        var b = liczbab;
+        var suma = a * b;
+        console.log("wynik to: " + suma);
+      }
+      function dzielenie() {
+        var a = liczbaa;
+        var b = liczbab;
+        var suma = a / b;
+        console.log("wynik to: " + suma);
+      }
+    </script>
+  </body>
+</html>

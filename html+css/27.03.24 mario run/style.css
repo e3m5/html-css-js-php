@@ -1,0 +1,14 @@
+.mariow{
+    width: 55px;
+    height: 61px ;
+    background-image: url(mario.png);
+}
+
+@keyframes bieg{
+    0%{background-position: 0 0;}
+    100%{background-position: -110px 0;}
+}
+
+#mario{
+    animation: bieg 0.09s steps(2) infinite;
+}

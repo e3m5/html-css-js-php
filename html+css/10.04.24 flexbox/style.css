@@ -1,0 +1,23 @@
+#tlo{
+height: 700px;
+background-color:rgb(247, 62, 62) ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+text-align: center;
+}
+
+
+
+#box{
+    width:200px;
+    height: 100px;
+    color: cornsilk;
+    background-color: black;
+    text-align: center;
+    
+    margin: 60px;
+    
+}

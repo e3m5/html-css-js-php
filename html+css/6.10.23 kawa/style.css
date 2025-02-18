@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h1,h2,h3{
+    color: rgb(29, 29, 29);
+}
+table,th,td{
+    border: 1px solid black;
+   
+}
+table{
+    width: 100%;
+}
+img{
+    width: 500px;
+}
+#roznaT{
+    display: block;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    margin-bottom: 2px;
+
+}

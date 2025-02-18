@@ -1,0 +1,52 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    text-align: center;
+}
+#diw{
+    display: flex;
+    position: relative;
+    animation:  ani1 2s infinite;
+}
+#dwa{
+    display: flex;
+    position: relative;
+    animation:  ani2 2s infinite;
+}
+#trzy{
+    display: flex;
+    position: relative;
+    animation:  ani3 4s infinite;
+}
+#cztery{
+    display: flex;
+    position: relative;
+    animation:  ani4 4s infinite;
+}
+
+@keyframes ani1{
+    0% {top: 0px; left: 0px; }
+    100% {top: 0px; left: 100px; }
+}
+@keyframes ani2{
+    0%{transform: rotate(180deg)};
+
+}
+
+@keyframes ani3{
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+    80%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
+  @keyframes ani4 {
+    from {
+      margin-left: 100%;
+      width:  100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}

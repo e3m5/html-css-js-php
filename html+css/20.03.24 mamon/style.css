@@ -1,0 +1,91 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: azure;
+}
+#napis1{
+    font-size: 50px;
+    border: 1px solid black;
+    width: 780px;
+    margin: auto;
+    height: 70px;
+    /*animation: nogi 5s infinite;*/
+    /*margin-top: 370px;*/
+}
+#napis1 > span{
+    display: block;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    background-color: lightsalmon;
+    width: 70px; 
+    float: left;
+    margin: 5px 5px;
+    animation: mammon 5s infinite;
+    
+}
+
+@keyframes mammon{
+    0%{transform: rotate(o)};
+    10%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes nogi{
+    0%{transform: rotate(o)};
+    100%{transform: rotate(360deg);}
+}
+#napis1 > span:nth-child(1){
+    animation-delay: 250ms;
+}
+#napis1 > #n2{
+    animation-delay: 500ms;
+}
+#napis1 > #n3{
+    animation-delay: 750ms;
+}
+#napis1 > #n4{
+    animation-delay: 1000ms;
+}
+#napis1 > #n5{
+    animation-delay: 1250ms;
+}
+#napis1 > #n6{
+    animation-delay: 1500ms;
+}
+#napis1 > #n7{
+    animation-delay: 1750ms;
+}
+#napis1 > #n8{
+    animation-delay: 2000ms;
+}
+#napis1 > #n9{
+    animation-delay: 2250ms;
+}
+
+#napis2{
+    position: relative;
+    float: left;
+    margin: auto;
+    margin-left: 30px;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+}
+#napis2 > span{
+    position:absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: azure;
+    animation: osel 5s steps(13,start) infinite,kreska ;
+    border-left: 1px solid black;
+}
+@keyframes osel{
+    0%{width: 100%;}
+    100%{width: 0%;}
+}
+@keyframes kreska{
+    0%{border-left-color:transparent ;}
+    50%{border-left-color: black;}
+    100%{border-left-color: transparent}
+}

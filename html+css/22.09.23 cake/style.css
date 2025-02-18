@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: cyan;
+}
+p{
+    border: 9px dotted red;
+    color: rgb(210, 43, 176);
+    font-size: 25px; 
+}
+div{
+    background-color: aqua;
+    border: 8px solid #00722c;
+    align-items: center;
+}
+p,div {
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sernik{
+    border: 20px dotted rgb(216, 11, 21);
+    border-radius: 50%;
+}
+#tort{
+    border: 20px dotted rgb(56, 134, 4);
+    border-radius: 50%;
+}
+button {
+    height: 100px;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 20%;
+    
+}
