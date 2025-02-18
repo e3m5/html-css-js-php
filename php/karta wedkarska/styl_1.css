@@ -1,0 +1,40 @@
+html{
+    font-family: Georgia;
+}
+header{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+main{
+    background-color: lightblue;
+    padding: 100px;
+}
+#l{
+    background-color: dodgerblue;
+    color: white;
+    width: 20%;
+    height: 220px;
+    float: left;
+}
+#s,#p{
+    background-color: dodgerblue;
+    color: white;
+    width: 40%;
+    height: 220px;
+    text-align: center;
+    
+}
+#s{
+    float: left;
+}
+#p{
+    float: right;
+}
+a{
+    border: 1px dashed dimgray;
+    background-color: gold;
+    color: darkred;
+    padding: 10px;
+}

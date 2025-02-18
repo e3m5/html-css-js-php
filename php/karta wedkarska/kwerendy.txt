@@ -1,0 +1,4 @@
+1.INSERT INTO karty_wedkarskie VALUES (" ","Grzegorz","Niemczyk","Gdynia, Batorego 14/5","2018-02-23","0");
+2.Select imie,nazwisko from Karty_wedkarskie where punkty > 20;
+3.select lowisko.akwen, Zawody_wedkarskie.sedzia from lowisko left join Zawody_wedkarskie on lowisko.id = Zawody_wedkarskie.Lowisko_id where sedzia like "Krzysztof Dobrowolski";
+4.create user anna@localhost identified by 'anna123';  
