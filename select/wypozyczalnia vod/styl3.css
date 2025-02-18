@@ -1,0 +1,39 @@
+*{
+    font-family: verdana;
+}
+#l{
+    background-color: #29434e;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+}
+#p{
+    background-color: #29434e;
+    color: white;
+    width: 30%;
+    height: 70px;
+}
+#polecamy,#fantasy{
+    background-color: #b0bec5;
+    height: 320px;
+    overflow: scroll;
+}
+footer{
+    background-color: #29434e;
+    color: white;
+}
+.film{
+    padding: 5px;
+    width: 226px;
+    height: 280px;
+}
+h3{
+    background-color: #546e7a;
+    color: white;
+    margin: 0;
+}
+h4{
+    text-align: center;
+    margin: 0;
+}

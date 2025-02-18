@@ -1,0 +1,4 @@
+SELECT haslo FROM `uzytkownicy` WHERE login like "Justyna"; 
+SELECT count(*) FROM `dane`; 
+SELECT login,rok_urodz,przyjaciol,hobby,zdjecie FROM `uzytkownicy` join dane ON uzytkownicy.id = dane.id WHERE login like "Justyna"; 
+ALTER TABLE dane ADD COLUMN stanowisko varchar(30); 
