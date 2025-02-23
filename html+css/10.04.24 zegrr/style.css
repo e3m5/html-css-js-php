@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://source.unsplash.com/random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#rodzic {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.liczby {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+
+  display: inherit;s
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  line-height: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#drugi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slowa {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  line-height: 55px;
+  border: 1px solid whitesmoke;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  width: 100px;
+  height: 40px;
+}

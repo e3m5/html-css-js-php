@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zegrrrrr</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="rodzic">
+      <p class="liczby" id="liczby1">12</p>
+      <p class="liczby" id="liczby2">12</p>
+      <p class="liczby" id="liczby3">12</p>
+    </div>
+    <br />
+    <div id="drugi">
+      <p class="slowa" id="slowa1">H O U R S</p>
+      <p class="slowa" id="slowa2">M I N U T E S</p>
+      <p class="slowa" id="slowa3">S E C O N D S</p>
+    </div>
+
+    <script>
+      const hr = document.getElementById("liczby1");
+      const min = document.getElementById("liczby2");
+      const se = document.getElementById("liczby3");
+
+      function updateDate() {
+        let h = new Date().getHours();
+        let m = new Date().getMinutes();
+        let s = new Date().getSeconds();
+
+        h = h < 10 ? "0" + h : h;
+        if (m < 10) {
+          m == "0" + m;
+        }
+        if (s < 10) {
+          s == "0" + s;
+        }
+        hr.innerText = h;
+        min.innerText = m;
+        se.innerText = s;
+      }
+      setInterval(updateDate, 1000);
+    </script>
+  </body>
+</html>
